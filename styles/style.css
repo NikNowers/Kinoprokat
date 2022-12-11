@@ -1,0 +1,133 @@
+table,
+td {
+    border: 1px solid #333;
+}
+
+input[type=radio][value="radio_filter_film"]~.film {
+    display: none;
+}
+
+input[type=radio][value="radio_filter_film"]:checked~.film{
+    display: block;
+}
+
+input[type=radio][value="radio_filter_tenant"]~.tenant {
+    display: none;
+}
+
+input[type=radio][value="radio_filter_tenant"]:checked~.tenant{
+    display: block;
+}
+
+input[type=radio][value="radio_filter_orders"]~.orders {
+    display: none;
+}
+
+input[type=radio][value="radio_filter_orders"]:checked~.orders{
+    display: block;
+}
+
+
+
+input[type=radio][value="radio_edit_tenant"]~.table_tenant {
+    display: none;
+}
+
+input[type=radio][value="radio_edit_tenant"]:checked~.table_tenant{
+    display: block;
+}
+
+input[type=radio][value="radio_edit_film"]~.table_film {
+    display: none;
+}
+
+input[type=radio][value="radio_edit_film"]:checked~.table_film{
+    display: block;
+}
+
+input[type=radio][value="radio_edit_actor"]~.table_actor {
+    display: none;
+}
+
+input[type=radio][value="radio_edit_actor"]:checked~.table_actor{
+    display: block;
+}
+
+input[type=radio][value="radio_edit_director"]~.table_director {
+    display: none;
+}
+
+input[type=radio][value="radio_edit_director"]:checked~.table_director{
+    display: block;
+}
+
+input[type=radio][value="radio_edit_disk"]~.table_disk {
+    display: none;
+}
+
+input[type=radio][value="radio_edit_disk"]:checked~.table_disk{
+    display: block;
+}
+
+input[type=radio][value="radio_edit_disk_rental"]~.table_disk_rental {
+    display: none;
+}
+
+input[type=radio][value="radio_edit_disk_rental"]:checked~.table_disk_rental{
+    display: block;
+}
+
+input[type=radio][value="radio_edit_film_disk"]~.table_film_disk {
+    display: none;
+}
+
+input[type=radio][value="radio_edit_film_disk"]:checked~.table_film_disk{
+    display: block;
+}
+
+input[type=radio][value="radio_edit_films_actors"]~.table_films_actors {
+    display: none;
+}
+
+input[type=radio][value="radio_edit_films_actors"]:checked~.table_films_actors{
+    display: block;
+}
+
+input[type=radio][value="radio_edit_films_directors"]~.table_films_directors {
+    display: none;
+}
+
+input[type=radio][value="radio_edit_films_directors"]:checked~.table_films_directors{
+    display: block;
+}
+
+input[type=radio][value="radio_edit_genre"]~.table_genre {
+    display: none;
+}
+
+input[type=radio][value="radio_edit_genre"]:checked~.table_genre{
+    display: block;
+}
+
+body {
+    height: 200px;
+    background: linear-gradient(to right, #c7c7c7, #ffffff 50%, #c7c7c7);
+}
+
+header{
+}
+
+.topmenu {
+        display: flex;
+        justify-content: center;
+}
+
+#footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #e1e1e1; /* Цвет фона */
+    color: #4b4b4b; /* Цвет текста */
+    width: 99%; /* Ширина слоя */
+    text-align:right;
+}
